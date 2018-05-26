@@ -1,0 +1,10 @@
+#windowView {
+    background-color: #f0f0f0;
+    min-height: 50vh;
+}
+.left-pane{
+  min-height: 50vh;
+  height:50vh;
+  background-color: #f0d4d4;
+
+}

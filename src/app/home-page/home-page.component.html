@@ -1,38 +1,19 @@
-<div class="container" id="main-container" >
-    <app-header></app-header>
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <form id="form-style">
-                    <div class="form-group">
-                       <label for="Placememt">Placement:</label> 
-                       <input type="number" class="form-control"/> 
-                    </div>
-
-                    <div class="form-group">
-                        <label for="Video">Videos: </label>
-                        <input type="number" class="form-control"/>
-                    </div>
-
-                    <div class="form-group">
-                            <label for="Placememt">Hours:</label> 
-                            <input type="number" class="form-control"/> 
-                         </div>
-     
-                         <div class="form-group">
-                             <label for="Video">Return Visti: </label>
-                             <input type="number" class="form-control"/>
-                         </div>
-
-                         <div class="form-group">
-                                <label for="Placememt">Bible Studies:</label> 
-                                <input type="number" class="form-control"/> 
-                             </div>
-         
-                             <div class="form-group">
-                                 <textarea class="form-control" cols="20" rows="10" placeholder="Type in your Comment for the month"></textarea>
-                             </div>
-                </form>
-            </div><!-- end of form col div -->
-</div><!-- end of row form div -->
+<div class="container-fluid main-container">
+    <div class="well well-class bg-dark"></div>
+<div class="well well-class"></div> <!-- Well class is a css style added by me-->
+<div class="row row-col" ><!-- Row-col is a class that was added by me for styling purpose-->
+    <div class="col-md-2 sideNavDiv"><!-- This is the colume for the side navigation Bar-->
+      <app-header-side></app-header-side>
+    </div><!-- The side navigation Bar end here-->
+    <div class="col-md-10 bg-primary contentDisplay"><!-- This is the colume for the display content-->
+    </div><!-- The content end here-->
+</div><!-- End of row col-->
 <app-footer></app-footer>
-</div><!-- end of container div -->
+</div><!-- End of main container-->
+
+<!--
+  NOTE:
+  1. sideNavDiv is a class div added by me for styling my navigation div.
+  2. contentDisplay is a class div added by me for styling my contentDisplay div.
+-->
+

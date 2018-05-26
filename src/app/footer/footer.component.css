@@ -1,2 +1,7 @@
-
-    
+#footer {
+    padding: 0px;
+    margin-top: 5px;
+    color: #fff;
+    font-family: helvetica;
+    text-align: center;
+}
